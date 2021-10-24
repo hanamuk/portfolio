@@ -93,13 +93,15 @@
 
 ## 화면
 
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586250-ae317011-e194-450d-8bbb-24e2395a27de.JPG" width="70%" height="%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586250-ae317011-e194-450d-8bbb-24e2395a27de.JPG" width="60%" height="%"></p>
 <h4 align="center"> [전체 작업공정 리스트 출력]</h4>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586263-5376d000-9f10-4900-a72f-d52d16b7baae.JPG" width="70%" height="70%"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586263-5376d000-9f10-4900-a72f-d52d16b7baae.JPG" width="60%" height="70%"></p>
 <h4 align="center"> [작업공정 할당]</h4>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586267-e61fcbc7-c183-4938-9be3-4a169faf2017.JPG" width="70%" height="70%"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586267-e61fcbc7-c183-4938-9be3-4a169faf2017.JPG" width="60%" height="70%"></p>
 <h4 align="center"> [개인 할당작업 및 작업지시서]</h4>
 
 
