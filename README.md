@@ -32,3 +32,8 @@
 
 ### 기타
 - 검출영상 촬영 및 GPS장치 (Raspberry Pi4, ABKO APC930 QHD 웹캠, USB-Port-GPS Module SKU:EZ-0048 )
+
+
+
+
+# 2. 스마트 공장 공정관리 솔루션 애플리케이션(작업자 시스템 부문)
