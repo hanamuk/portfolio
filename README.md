@@ -31,10 +31,10 @@
 ## 화면
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138584288-0c366a5a-e683-4dbb-baf7-e2f6d29d2557.png" width="60%" height="100%"></p>
-<h4 align="center"> 메인화면1</h4>
+<h4 align="center"> [포트홀 감지 및 데이터 전송]</h4>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586582-1b0d7aeb-fd4b-4f59-8c61-f306ebbff6f7.jpg" width="60%" height="100%"></p>
-<h4 align="center"> 메인화면2</h4>
+<h4 align="center"> [사용자 Windows form]</h4>
 
 
 
@@ -94,13 +94,13 @@
 ## 화면
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586250-ae317011-e194-450d-8bbb-24e2395a27de.JPG" width="70%" height="%"></p>
-<h4 align="center"> 메인화면1</h4>
+<h4 align="center"> [전체 작업공정 리스트 출력]</h4>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586263-5376d000-9f10-4900-a72f-d52d16b7baae.JPG" width="70%" height="70%"></p>
-<h4 align="center"> 메인화면2</h4>
+<h4 align="center"> [작업공정 할당]</h4>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586267-e61fcbc7-c183-4938-9be3-4a169faf2017.JPG" width="70%" height="70%"></p>
-<h4 align="center"> 메인화면3</h4>
+<h4 align="center"> [개인 할당작업 및 작업지시서]</h4>
 
 
 
