@@ -31,9 +31,41 @@
 - SQL Server
 
 ### 기타
-- 검출영상 촬영 및 GPS장치 (Raspberry Pi4, ABKO APC930 QHD 웹캠, USB-Port-GPS Module SKU:EZ-0048 )
-
-
-
-
+- 검출영상 촬영 및 GPS장치 (Raspberry Pi4, ABKO APC930 QHD 웹캠, USB-Port-GPS Module SKU:EZ-0048 )  
+  
+  
 # 2. 스마트 공장 공정관리 솔루션 애플리케이션(작업자 시스템 부문)
+
+## 화면
+
+### 기능구성도
+![1](https://user-images.githubusercontent.com/46813878/138586107-63161121-24de-4797-b11e-7cc7153e4119.JPG)
+
+
+### 흐름도
+![2](https://user-images.githubusercontent.com/46813878/138586121-67d0a931-a843-42c7-8c01-a6b91980fd62.JPG)
+
+### 메인화면
+![aaa](https://user-images.githubusercontent.com/46813878/138586250-ae317011-e194-450d-8bbb-24e2395a27de.JPG)
+
+
+### 메인화면
+![bbb](https://user-images.githubusercontent.com/46813878/138586263-5376d000-9f10-4900-a72f-d52d16b7baae.JPG)
+
+
+### 메인화면
+
+![ccc](https://user-images.githubusercontent.com/46813878/138586267-e61fcbc7-c183-4938-9be3-4a169faf2017.JPG)
+
+
+
+
+## 💻 사용 기술
+
+### 안드로이드
+- JAVA
+- Json
+- REST API
+
+
+
