@@ -2,6 +2,13 @@
 # 1. Yolo v4 을 활용한 도로 노후화 자동 감지
 
 ## 개발 소개
+
+### 목적
+: 도로에 발생하는 포트홀과 같은 현상들은 지자체마다 다르게 해야하는데, 도로의 범위가 매우 넓어 인력이 부족할 뿐더러
+검사를 하는 장비에 가격이 높기때문에 장비가 부족합니다. 또한 통합 관리프로그램의 부재로 문제 해결에 어려움이 있습니다.
+따라서 위와 같은 문제에 필요할 것으로 판단되어 개발을 진행하였습니다.
+
+### 주요 기능
 1. 포트 홀 인식, DB연동을 통한 포트 홀 정보 제공
 2. 발생 좌표 및 처리상태 관리
 3. 지도를 통한 정보 확인
@@ -57,29 +64,46 @@
 ### 기타
 - 검출영상 촬영 및 GPS장치 (Raspberry Pi4, ABKO APC930 QHD 웹캠, USB-Port-GPS Module SKU:EZ-0048 )  
   
+***
   
-# 2. 스마트 공장 공정관리 솔루션 애플리케이션(작업자 시스템 부문)
+# 2. 공장 공정관리 애플리케이션(작업자 시스템 부문)  
+
+
+## 개발 소개
+
+### 목적
+: 공장에서 사용되는 공정에 대한 지시서는 지금까지 아날로그방법으로 전달되어 왔습니다. 따라서 업데이트를 하기에 힘들 뿐더러 반영되는
+시간 또한 많이 필요하였고 때문에 관리자와 작업자 간에 의사소통이 어려운 점이 있었습니다. 이번 프로젝트는 관리자가 배포하는 작업지시서를
+작업자는 태블릿을 통해 제공받고 자신의 파트에 맞게 해당 공정을 할당 할 수 있도록 하며, 해당 프로그램을 통해 자주검사를 시행 할 수 있도록
+하는 프로그램 개발(작업자 부문)을 진행하였습니다.
+
+### 
+1. json 형태로 전달되어지는 데이터를 작업자가 확인 할 수 있는 리스트 형태로 출력한다.
+2. 서버와의 통신은 REST방식을 사용하여 이루어지도록 한다.
+3. 작업자가 입고하여 작업 중인 공정에 대해서는 서버에서 다른 작업자가 입고하지 못하도록 한다.
+4. 작업자는 화면을 통해 작업지시서의 세부내용을 확인 할 수 있도록한다
+5. 할당된 공정의 종료 시 자주검사성적서를 작성하도록 한다.
+
+
+
+
+## 기능 및 흐름
+
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586107-63161121-24de-4797-b11e-7cc7153e4119.JPG" width="70%" height="100%"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586121-67d0a931-a843-42c7-8c01-a6b91980fd62.JPG" width="70%" height="100%"></p>
+
 
 ## 화면
 
-### 기능구성도
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586107-63161121-24de-4797-b11e-7cc7153e4119.JPG" width="70%" height="70%"></p>
-
-
-
-### 흐름도
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586121-67d0a931-a843-42c7-8c01-a6b91980fd62.JPG" width="70%" height="70%"></p>
-
-### 메인화면
-
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586250-ae317011-e194-450d-8bbb-24e2395a27de.JPG" width="70%" height="70%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586250-ae317011-e194-450d-8bbb-24e2395a27de.JPG" width="70%" height="%"></p>
 <h4 align="center"> 메인화면1</h4>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586263-5376d000-9f10-4900-a72f-d52d16b7baae.JPG" width="70%" height="70%"></p>
-<h4 align="center"> 메인화면1</h4>
+<h4 align="center"> 메인화면2</h4>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586267-e61fcbc7-c183-4938-9be3-4a169faf2017.JPG" width="70%" height="70%"></p>
-<h4 align="center"> 메인화면1</h4>
+<h4 align="center"> 메인화면3</h4>
 
 
 
