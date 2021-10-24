@@ -11,7 +11,7 @@
 
 ## 💻 사용 기술
 
-### 영상 처리
+### 영상 처리 및 포트홀 검출
 - Yolo v4
 - Open CV
 - Python
@@ -21,6 +21,12 @@
 - Python
 - Socket 통신
 
+### 사용자 화면
+- Windows Form
+- Android(JAVA)
+
 ### 데이터베이스
 - SQL Server
 
+### 기타
+- 검출영상 촬영 및 GPS장치 (Raspberry Pi4, ABKO APC930 QHD 웹캠, USB-Port-GPS Module SKU:EZ-0048 )
