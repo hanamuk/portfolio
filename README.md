@@ -113,5 +113,14 @@
 - REST API
 - AVD (Galaxy Tab A 7.0 ) 
 
+***   
+   
+   
+
+## 3. 채팅서버 및 클라이언트 제작
+
+<img src="https://user-images.githubusercontent.com/46813878/138597211-d7926a60-013d-44a3-aa7f-a7d92c83a47f.JPG" width="50%" height="70%">
+
+<img src="https://user-images.githubusercontent.com/46813878/138597265-3248b632-631f-4b66-9379-cf1955581d02.JPG" width="50%" height="70%">
 
 
