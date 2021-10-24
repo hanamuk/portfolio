@@ -1,20 +1,24 @@
-# 1. Yolo-Darknet을 활용한 도로 노후화 자동 감지
+# 1. Yolo v4 을 활용한 도로 노후화 자동 감지
+
+## 개발목표
+1. 포트 홀 인식, DB연동을 통한 포트 홀 정보 제공
+2. 발생 좌표 및 처리상태 관리
+3. 지도를 통한 정보 확인
 
 ## 화면
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138584288-0c366a5a-e683-4dbb-baf7-e2f6d29d2557.png" width="60%" height="100%"></p>
-<p align="center"> 메인화면1</p>
+<h4 align="center"> 메인화면1</h4>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586582-1b0d7aeb-fd4b-4f59-8c61-f306ebbff6f7.jpg" width="60%" height="100%"></p>
-<p align="center"> 메인화면1</p>
-
+<h4 align="center"> 메인화면1</h4>
 
 
 ## 처리흐름
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138584260-b2527c8d-2a29-45b0-9663-1623ece3db71.png" width="60%" height="100%"></p>
-<p align="center"> 메인화면1</p>
+<h4 align="center"> 메인화면1</h4>
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138584267-95b84575-c46b-4ae5-9f25-15b3e3adab28.png" width="60%" height="100%"></p>
-<p align="center"> 메인화면1</p>
+<h4 align="center"> 메인화면1</h4>
 
 
 
@@ -55,17 +59,16 @@
 ### 흐름도
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586121-67d0a931-a843-42c7-8c01-a6b91980fd62.JPG" width="70%" height="70%"></p>
 
-
 ### 메인화면
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586250-ae317011-e194-450d-8bbb-24e2395a27de.JPG" width="70%" height="70%"></p>
-<p align="center"> 메인화면1</p>
+<h4 align="center"> 메인화면1</h4>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586263-5376d000-9f10-4900-a72f-d52d16b7baae.JPG" width="70%" height="70%"></p>
-<p align="center"> 메인화면1</p>
+<h4 align="center"> 메인화면1</h4>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586267-e61fcbc7-c183-4938-9be3-4a169faf2017.JPG" width="70%" height="70%"></p>
-<p align="center"> 메인화면1</p>
+<h4 align="center"> 메인화면1</h4>
 
 
 
