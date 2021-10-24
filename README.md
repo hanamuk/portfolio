@@ -87,11 +87,9 @@
 
 
 
-## 기능 및 흐름
+## 흐름
 
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586107-63161121-24de-4797-b11e-7cc7153e4119.JPG" width="70%" height="100%"></p>
-
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586121-67d0a931-a843-42c7-8c01-a6b91980fd62.JPG" width="70%" height="100%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586121-67d0a931-a843-42c7-8c01-a6b91980fd62.JPG" width="80%" height="100%"></p>
 
 
 ## 화면
