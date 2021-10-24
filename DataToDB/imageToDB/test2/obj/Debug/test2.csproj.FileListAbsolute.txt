@@ -1,0 +1,75 @@
+C:\Users\H\Desktop\bitProject\test2\test2\obj\Debug\test2.Form1.resources
+C:\Users\H\Desktop\bitProject\test2\test2\obj\Debug\test2.Properties.Resources.resources
+C:\Users\H\Desktop\bitProject\test2\test2\obj\Debug\test2.csproj.GenerateResource.cache
+C:\Users\H\Desktop\bitProject\test2\test2\bin\Debug\test2.exe.config
+C:\Users\H\Desktop\bitProject\test2\test2\bin\Debug\test2.exe
+C:\Users\H\Desktop\bitProject\test2\test2\bin\Debug\test2.pdb
+C:\Users\H\Desktop\bitProject\test2\test2\obj\Debug\test2.exe
+C:\Users\H\Desktop\bitProject\test2\test2\obj\Debug\test2.pdb
+C:\Users\H\Desktop\bitProject\test2\test2\bin\Debug\EntityFramework.dll
+C:\Users\H\Desktop\bitProject\test2\test2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\H\Desktop\bitProject\test2\test2\bin\Debug\EntityFramework.xml
+C:\Users\H\Desktop\bitProject\test2\test2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\H\Desktop\bitProject\test2\test2\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\H\Desktop\bitProject\test2\test2\obj\Debug\test2.csproj.CopyComplete
+C:\Users\H\Desktop\bitProject\test2\test2\obj\Debug\test2.csprojAssemblyReference.cache
+C:\Users\H\Desktop\bitProject\imageToDB\test2\bin\Debug\test2.exe.config
+C:\Users\H\Desktop\bitProject\imageToDB\test2\bin\Debug\test2.exe
+C:\Users\H\Desktop\bitProject\imageToDB\test2\bin\Debug\test2.pdb
+C:\Users\H\Desktop\bitProject\imageToDB\test2\bin\Debug\EntityFramework.dll
+C:\Users\H\Desktop\bitProject\imageToDB\test2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\H\Desktop\bitProject\imageToDB\test2\bin\Debug\EntityFramework.xml
+C:\Users\H\Desktop\bitProject\imageToDB\test2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\H\Desktop\bitProject\imageToDB\test2\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\H\Desktop\bitProject\imageToDB\test2\obj\Debug\test2.csprojAssemblyReference.cache
+C:\Users\H\Desktop\bitProject\imageToDB\test2\obj\Debug\test2.Form1.resources
+C:\Users\H\Desktop\bitProject\imageToDB\test2\obj\Debug\test2.Properties.Resources.resources
+C:\Users\H\Desktop\bitProject\imageToDB\test2\obj\Debug\test2.csproj.GenerateResource.cache
+C:\Users\H\Desktop\bitProject\imageToDB\test2\obj\Debug\test2.csproj.CopyComplete
+C:\Users\H\Desktop\bitProject\imageToDB\test2\obj\Debug\test2.exe
+C:\Users\H\Desktop\bitProject\imageToDB\test2\obj\Debug\test2.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\bin\Debug\test2.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\bin\Debug\test2.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\bin\Debug\test2.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\bin\Debug\EntityFramework.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\bin\Debug\EntityFramework.xml
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\obj\Debug\test2.Form1.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\obj\Debug\test2.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\obj\Debug\test2.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\obj\Debug\test2.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\obj\Debug\test2.csproj.CopyComplete
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\obj\Debug\test2.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\프로젝트\imageToDB\test2\obj\Debug\test2.pdb
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\bin\Debug\test2.exe.config
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\bin\Debug\test2.exe
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\bin\Debug\test2.pdb
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\bin\Debug\EntityFramework.dll
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\bin\Debug\EntityFramework.xml
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\obj\Debug\test2.csprojAssemblyReference.cache
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\obj\Debug\test2.Form1.resources
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\obj\Debug\test2.Properties.Resources.resources
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\obj\Debug\test2.csproj.GenerateResource.cache
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\obj\Debug\test2.csproj.CopyComplete
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\obj\Debug\test2.exe
+C:\Users\H\Desktop\imageToDB (2)\imageToDB\test2\obj\Debug\test2.pdb
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\obj\Debug\test2.csprojAssemblyReference.cache
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\obj\Debug\test2.Form1.resources
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\obj\Debug\test2.Properties.Resources.resources
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\obj\Debug\test2.csproj.GenerateResource.cache
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\obj\Debug\test2.exe
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\obj\Debug\test2.pdb
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\bin\Debug\test2.exe.config
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\bin\Debug\test2.exe
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\bin\Debug\EntityFramework.dll
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\bin\Debug\EntityFramework.xml
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\obj\Debug\test2.csproj.CopyComplete
+C:\Users\H\Desktop\bitProject\imageToDB 좌표까지 저장완료\imageToDB\test2\bin\Debug\test2.pdb

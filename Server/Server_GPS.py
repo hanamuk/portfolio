@@ -1,0 +1,28 @@
+import socket
+import sys
+import os
+s = socket.socket()
+s.bind(("192.168.0.4",8888))
+s.listen(10) # Acepta hasta 10 conexiones entrantes.
+
+
+j=len(os.walk('D:/yolo/tranfered/').__next__()[2])
+while True:
+    sc, address = s.accept()
+
+    print(address)
+    j=j+1
+    f = open('D:/yolo/tranfered/'+ str(j)+".txt",'wb') #open in binary
+    while (True):
+        # recibimos y escribimos en el fichero
+        l = sc.recv(1024)
+        f.write(l)
+
+        if not l:
+            break
+
+    f.close()
+    sc.close()
+    print('GPS transfered.')
+
+s.close()
