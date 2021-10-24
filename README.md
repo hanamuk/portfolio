@@ -106,10 +106,10 @@
 
 ## 💻 사용 기술
 
-### 안드로이드
 - JAVA
 - Json
 - REST API
+- AVD (Galaxy Tab A 7.0 ) 
 
 
 
