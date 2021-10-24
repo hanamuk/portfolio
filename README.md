@@ -86,7 +86,7 @@
 
 
 
-## 흐름
+## 처리흐름
 
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138586121-67d0a931-a843-42c7-8c01-a6b91980fd62.JPG" width="80%" height="100%"></p>
 
