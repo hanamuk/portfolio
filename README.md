@@ -24,6 +24,8 @@
 ### 사용자 화면
 - Windows Form
 - Android(JAVA)
+- Naver Maps API
+- Googole MAP API
 
 ### 데이터베이스
 - SQL Server
