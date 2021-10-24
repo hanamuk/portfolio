@@ -1,0 +1,81 @@
+[{
+
+  "JOB_NAME" : "J-11111111",
+  "PROGRESS_STATUS" : "1/5",
+  "STATE_BEFORE" : "프레스",
+  "STATE_PRESENT" : "Back to Back",
+  "STATE_NEXT" : "세척 및 건조",
+  "WORKER_NAME" : "",
+  "ASSIGNMENT" : 1,
+  "WAREHOUSING" : 1
+},
+{
+  "JOB_NAME" : "J-11111111",
+  "PROGRESS_STATUS" : "2/5",
+  "STATE_BEFORE" : "프레스",
+  "STATE_PRESENT" : "Back to Back",
+  "STATE_NEXT" : "세척 및 건조",
+  "WORKER_NAME" : "윤강희",
+  "ASSIGNMENT" : 1,
+  "WAREHOUSING" : 2
+},
+  {
+    "JOB_NAME" : "J-11111111",
+    "PROGRESS_STATUS" : "2/5",
+    "STATE_BEFORE" : "프레스",
+    "STATE_PRESENT" : "Back to Back",
+    "STATE_NEXT" : "세척 및 건조",
+    "WORKER_NAME" : "윤강희",
+    "ASSIGNMENT" : 1,
+    "WAREHOUSING" : 2
+  },
+  {
+    "JOB_NAME" : "J-11111111",
+    "PROGRESS_STATUS" : "2/5",
+    "STATE_BEFORE" : "프레스",
+    "STATE_PRESENT" : "Back to Back",
+    "STATE_NEXT" : "세척 및 건조",
+    "WORKER_NAME" : "윤강희",
+    "ASSIGNMENT" : 1,
+    "WAREHOUSING" : 2
+  },
+  {
+    "JOB_NAME" : "J-11111111",
+    "PROGRESS_STATUS" : "2/5",
+    "STATE_BEFORE" : "프레스",
+    "STATE_PRESENT" : "Back to Back",
+    "STATE_NEXT" : "세척 및 건조",
+    "WORKER_NAME" : "윤강희",
+    "ASSIGNMENT" : 1,
+    "WAREHOUSING" : 2
+  },
+  {
+    "JOB_NAME" : "J-11111111",
+    "PROGRESS_STATUS" : "2/5",
+    "STATE_BEFORE" : "프레스",
+    "STATE_PRESENT" : "Back to Back",
+    "STATE_NEXT" : "세척 및 건조",
+    "WORKER_NAME" : "윤강희",
+    "ASSIGNMENT" : 1,
+    "WAREHOUSING" : 2
+  },
+  {
+    "JOB_NAME" : "J-11111111",
+    "PROGRESS_STATUS" : "2/5",
+    "STATE_BEFORE" : "프레스",
+    "STATE_PRESENT" : "Back to Back",
+    "STATE_NEXT" : "세척 및 건조",
+    "WORKER_NAME" : "윤강희",
+    "ASSIGNMENT" : 1,
+    "WAREHOUSING" : 2
+  },
+{
+  "JOB_NAME" : "J-11111111",
+  "PROGRESS_STATUS" : "3/5",
+  "STATE_BEFORE" : "프레스",
+  "STATE_PRESENT" : "Back to Back",
+  "STATE_NEXT" : "세척 및 건조",
+  "WORKER_NAME" : "최현우",
+  "ASSIGNMENT" : 2,
+  "WAREHOUSING" : 2
+}]

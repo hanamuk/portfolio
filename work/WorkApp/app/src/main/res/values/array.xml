@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="process_array">
+        <item>Back to Back</item>
+        <item>용접</item>
+        <item>세척</item>
+        <item>프레스</item>
+        <item>건조</item>
+        <item>불출</item>
+        <item>절단</item>
+        <item>포장</item>
+        <item>샤링</item>
+    </string-array>
+
+    <string-array name="equip_array">
+        <item>설비 #1</item>
+        <item>설비 #2</item>
+        <item>설비 #3</item>
+    </string-array>
+
+    <string-array name="allco_array">
+        <item>강모모</item>
+        <item>최모모</item>
+        <item>김모모</item>
+    </string-array>
+
+</resources>

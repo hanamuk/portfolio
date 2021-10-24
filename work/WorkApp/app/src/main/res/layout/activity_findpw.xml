@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FindpwActivity"
+    android:background="#d8dfe7">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/top"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/topbg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_top"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/backbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_top_back"
+            app:layout_constraintBottom_toBottomOf="@id/topbg"
+            app:layout_constraintLeft_toLeftOf="@id/topbg"
+            android:onClick="backBtnOnClick"
+            app:layout_constraintTop_toTopOf="@id/topbg"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 찾기"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="@+id/topbg"
+            app:layout_constraintBottom_toBottomOf="@+id/topbg"
+            app:layout_constraintLeft_toLeftOf="@+id/topbg"
+            app:layout_constraintRight_toRightOf="@id/topbg">
+        </TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinever"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".32"></androidx.constraintlayout.widget.Guideline>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinehor"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="175dp"></androidx.constraintlayout.widget.Guideline>
+
+    <ImageView
+        android:id="@+id/box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_box_lostpw"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toBottomOf="@id/top"
+        app:layout_constraintLeft_toLeftOf="@id/top"
+        app:layout_constraintRight_toRightOf="@id/top"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/businessnum"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="사번"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@id/guidelinehor"
+        app:layout_constraintRight_toRightOf="@id/guidelinever">
+
+    </TextView>
+    <TextView
+        android:id="@+id/socialnum"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:text="주민등록번호"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/guidelinehor"
+        app:layout_constraintRight_toRightOf="@id/guidelinever">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/firsttxtbox"
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/txt_lostpw_bsnumber"
+        app:layout_constraintBottom_toTopOf="@id/guidelinehor"
+        app:layout_constraintTop_toTopOf="@id/businessnum"
+        app:layout_constraintLeft_toRightOf="@id/businessnum"
+        app:layout_constraintRight_toRightOf="@id/box"
+        android:layout_marginRight="10dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/bsnum"
+        android:background="#00ffffff"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="12355"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintTop_toTopOf="@+id/firsttxtbox"
+        app:layout_constraintBottom_toBottomOf="@+id/firsttxtbox"
+        app:layout_constraintLeft_toLeftOf="@id/firsttxtbox"
+        android:singleLine="true">
+    </EditText>
+
+
+    <ImageView
+        android:id="@+id/secondtxtbox"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/txt_lostpw_number"
+        app:layout_constraintBottom_toBottomOf="@id/socialnum"
+        app:layout_constraintLeft_toLeftOf="@id/firsttxtbox"
+        app:layout_constraintTop_toBottomOf="@id/guidelinehor"></ImageView>
+
+    <EditText
+        android:id="@+id/scnum1"
+        android:background="#00ffffff"
+        android:layout_width="195dp"
+        android:text="970104"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintTop_toTopOf="@+id/secondtxtbox"
+        app:layout_constraintBottom_toBottomOf="@+id/secondtxtbox"
+        app:layout_constraintLeft_toLeftOf="@id/secondtxtbox"
+        android:singleLine="true">
+    </EditText>
+
+    <TextView
+        android:id="@+id/hipen"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@id/secondtxtbox"
+        app:layout_constraintTop_toTopOf="@id/secondtxtbox"
+        app:layout_constraintBottom_toBottomOf="@id/secondtxtbox">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/thirdtxtbox"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/txt_lostpw_number"
+        app:layout_constraintTop_toBottomOf="@id/guidelinehor"
+        app:layout_constraintLeft_toRightOf="@id/hipen"
+        app:layout_constraintBottom_toBottomOf="@id/socialnum"
+        android:layout_marginRight="10dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/scnum2"
+        android:background="#00ffffff"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="140155"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintTop_toTopOf="@+id/thirdtxtbox"
+        app:layout_constraintBottom_toBottomOf="@+id/thirdtxtbox"
+        app:layout_constraintLeft_toLeftOf="@id/thirdtxtbox"
+        android:singleLine="true">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/box"
+        app:layout_constraintRight_toRightOf="@id/box"
+        app:layout_constraintLeft_toLeftOf="@id/box"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_close"
+            android:onClick="backBtnOnClick"
+            android:layout_marginRight="30dp"></ImageView>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="okBtnOnClick"
+            android:src="@drawable/btn_ok"></ImageView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

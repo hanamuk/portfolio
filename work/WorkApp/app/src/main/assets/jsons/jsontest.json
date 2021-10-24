@@ -1,0 +1,46 @@
+[{
+
+  "JOB_NAME" : "J-11111111",
+  "PROGRESS_STATUS" : "2/5",
+  "STATE_BEFORE" : "프레스",
+  "STATE_PRESENT" : "Back to Back",
+  "STATE_NEXT" : "세척 및 건조",
+  "WAREHOUSING" : 1,
+  "COLOR" : "#fde5e5"
+
+},
+  {
+
+    "JOB_NAME" : "J-11156151",
+    "PROGRESS_STATUS" : "5/5",
+    "STATE_BEFORE" : "프레스2",
+    "STATE_PRESENT" : "Back ",
+    "STATE_NEXT" : "세척",
+    "WAREHOUSING" : 2,
+    "COLOR" : "#fde5e5"
+
+  },
+  {
+
+    "JOB_NAME" : "J-54534211",
+    "PROGRESS_STATUS" : "2/5",
+    "STATE_BEFORE" : "프레스",
+    "STATE_PRESENT" : "Back to Back",
+    "STATE_NEXT" : "김장하기",
+    "WAREHOUSING" : 1,
+    "COLOR" : "#fff8e5"
+
+  },
+  {
+
+    "JOB_NAME" : "J-3463463",
+    "PROGRESS_STATUS" : "5/5",
+    "STATE_BEFORE" : "카톡하기",
+    "STATE_PRESENT" : "return",
+    "STATE_NEXT" : "퇴근하기",
+    "WAREHOUSING" : 3,
+    "COLOR" : "#ffffff"
+
+  }
+
+]

@@ -1,0 +1,43 @@
+[{
+
+  "JOB_NAME" : "J-11111111",
+  "PROGRESS_STATUS" : "2/5",
+  "STATE_BEFORE" : "프레스",
+  "STATE_PRESENT" : "Back to Back",
+  "STATE_NEXT" : "세척 및 건조",
+  "WORKER_NAME" : "윤강희",
+  "WORK_STATUS" : 1
+
+},
+  {
+
+    "JOB_NAME" : "J-11156151",
+    "PROGRESS_STATUS" : "5/5",
+    "STATE_BEFORE" : "프레스2",
+    "STATE_PRESENT" : "Back ",
+    "STATE_NEXT" : "세척",
+    "WORKER_NAME" : "최현우",
+    "WORK_STATUS" : 2
+
+  },
+  {
+
+    "JOB_NAME" : "J-54534211",
+    "PROGRESS_STATUS" : "2/5",
+    "STATE_BEFORE" : "프레스",
+    "STATE_PRESENT" : "Back to Back",
+    "STATE_NEXT" : "김장하기",
+    "WORKER_NAME" : "진혜린",
+    "WORK_STATUS" : 2
+
+  },
+  {
+
+    "JOB_NAME" : "J-3463463",
+    "PROGRESS_STATUS" : "5/5",
+    "STATE_BEFORE" : "카톡하기",
+    "STATE_PRESENT" : "return",
+    "STATE_NEXT" : "퇴근하기",
+    "WORKER_NAME" : "",
+    "WORK_STATUS" : 1
+  }]

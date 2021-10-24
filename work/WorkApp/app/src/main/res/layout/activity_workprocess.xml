@@ -1,0 +1,888 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WorkProcessActivity"
+    android:background="#393d45">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/top"
+
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/topbg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_top"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/menubtn"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/list_btn_selector"
+                app:layout_constraintBottom_toBottomOf="@id/topbg"
+                app:layout_constraintLeft_toLeftOf="@id/topbg"
+                app:layout_constraintTop_toTopOf="@id/topbg"
+                android:layout_marginLeft="10dp"></ImageView>
+
+            <ImageView
+                android:id="@+id/backbtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_top_back_list"
+                app:layout_constraintBottom_toBottomOf="@id/topbg"
+                app:layout_constraintLeft_toRightOf="@id/menubtn"
+                android:onClick="mainProcessBtnOnClick"
+                app:layout_constraintTop_toTopOf="@id/topbg"
+                android:layout_marginLeft="10dp"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전체공정"
+                android:textColor="#a6abea"
+                android:textSize="23dp"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="@id/topbg"
+                app:layout_constraintLeft_toRightOf="@id/backbtn"
+                android:onClick="mainProcessBtnOnClick"
+                app:layout_constraintTop_toTopOf="@id/topbg"
+                android:layout_marginLeft="5dp"></TextView>
+
+            <TextView
+                android:id="@+id/maintxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="작업공정"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/topbg"
+                app:layout_constraintBottom_toBottomOf="@+id/topbg"
+                app:layout_constraintLeft_toLeftOf="@+id/topbg"
+                app:layout_constraintRight_toRightOf="@id/topbg">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/qrbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/qr_btn_selector"
+                app:layout_constraintBottom_toBottomOf="@id/topbg"
+                app:layout_constraintRight_toRightOf="@id/top"
+                android:onClick="qrBtnOnClick"
+                app:layout_constraintTop_toTopOf="@id/topbg"
+                android:layout_marginLeft="10dp"></ImageView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mainbox"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinehor"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".07"></androidx.constraintlayout.widget.Guideline>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinehor1"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".136"></androidx.constraintlayout.widget.Guideline>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinehor2"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".533"></androidx.constraintlayout.widget.Guideline>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinehor3"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".6"></androidx.constraintlayout.widget.Guideline>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinehor4"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".455"></androidx.constraintlayout.widget.Guideline>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinehor5"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.92"></androidx.constraintlayout.widget.Guideline>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinever"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="22dp"></androidx.constraintlayout.widget.Guideline>
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinever1"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".96"></androidx.constraintlayout.widget.Guideline>
+            <ImageView
+                android:id="@+id/box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_table_work"
+                android:adjustViewBounds="true"
+                app:layout_constraintTop_toTopOf="@id/mainbox"
+                app:layout_constraintLeft_toLeftOf="@id/mainbox"
+                app:layout_constraintRight_toRightOf="@id/mainbox"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:divider="#a3b0bf"
+                android:dividerPadding="0.5dp"
+                android:showDividers="middle"
+                app:layout_constraintTop_toBottomOf="@id/guidelinehor"
+                app:layout_constraintBottom_toTopOf="@id/guidelinehor1">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.08"
+                    android:textColor="#3f4265"
+                    android:text="순번"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.23"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="JOB NAME"
+                    android:gravity="center"/>
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.09"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="진행\n상태"
+                    android:gravity="center" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.26"
+                    android:weightSum="1"
+                    android:divider="#a3b0bf"
+                    android:dividerPadding="0.5dp"
+                    android:showDividers="middle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:textSize="18dp"
+                        android:paddingTop="5dp"
+                        android:textColor="#3f4265"
+                        android:text="공정 진행 상세 상태"
+                        android:gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_gravity="center"
+                        android:divider="#c0cad6"
+                        android:dividerPadding="0.5dp"
+                        android:showDividers="middle"
+                        android:weightSum="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.33333"
+                            android:textColor="#3f4265"
+                            android:textSize="18dp"
+                            android:text="이전"
+                            android:gravity="center" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.33333"
+                            android:textColor="#3f4265"
+                            android:textSize="18dp"
+                            android:text="현재"
+                            android:gravity="center" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.33333"
+                            android:textColor="#3f4265"
+                            android:textSize="18dp"
+                            android:text="다음"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.11"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="작업자"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="할당"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.13"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="입고"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/btb_listview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:clickable="true"
+                android:divider="#a3b0bf"
+                android:scrollbarFadeDuration="0"
+                android:scrollbarSize="12dp"
+                android:scrollbarThumbVertical="@android:color/darker_gray"
+                android:scrollbars="vertical"
+                app:layout_constraintBottom_toBottomOf="@id/guidelinehor4"
+                app:layout_constraintHorizontal_bias="0.226"
+                app:layout_constraintLeft_toLeftOf="@id/guidelinever"
+                app:layout_constraintRight_toRightOf="@id/guidelinever1"
+                app:layout_constraintTop_toBottomOf="@id/guidelinehor1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/menuname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Back to back"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/box"
+                app:layout_constraintLeft_toLeftOf="@+id/box"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/guidelinehor">
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/tabletop"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/bg_table_top_02"
+                app:layout_constraintTop_toTopOf="@+id/box"
+                app:layout_constraintBottom_toBottomOf="@id/guidelinehor"
+                app:layout_constraintRight_toRightOf="@id/box"
+                android:onClick="backBtnOnClick"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"></ImageView>
+
+            <TextView
+                android:id="@+id/importtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="할당 가능"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop"
+                app:layout_constraintLeft_toLeftOf="@+id/tabletop"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop"
+                android:layout_marginLeft="18dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/assignnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1건"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop"
+                app:layout_constraintRight_toRightOf="@+id/tabletop"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop"
+                android:layout_marginRight="15dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/tabletop2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/bg_table_top_01"
+                app:layout_constraintTop_toTopOf="@+id/box"
+                app:layout_constraintRight_toLeftOf="@id/tabletop"
+                app:layout_constraintBottom_toBottomOf="@id/guidelinehor"
+                android:onClick="backBtnOnClick"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"></ImageView>
+
+            <TextView
+                android:id="@+id/importtxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전체"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop2"
+                app:layout_constraintLeft_toLeftOf="@+id/tabletop2"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop2"
+                android:layout_marginLeft="18dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/importnum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1건"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop2"
+                app:layout_constraintRight_toRightOf="@+id/tabletop2"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop2"
+                android:layout_marginRight="15dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/box1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_table_work"
+                android:adjustViewBounds="true"
+                app:layout_constraintTop_toBottomOf="@id/box"
+                app:layout_constraintLeft_toLeftOf="@id/box"
+                app:layout_constraintRight_toRightOf="@id/box"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:divider="#a3b0bf"
+                android:dividerPadding="0.5dp"
+                android:showDividers="middle"
+                app:layout_constraintTop_toBottomOf="@id/guidelinehor2"
+                app:layout_constraintBottom_toTopOf="@id/guidelinehor3">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.08"
+                    android:textColor="#3f4265"
+                    android:text="순번"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.23"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="JOB NAME"
+                    android:gravity="center"/>
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.09"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="진행\n상태"
+                    android:gravity="center" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.26"
+                    android:weightSum="1"
+                    android:divider="#a3b0bf"
+                    android:dividerPadding="0.5dp"
+                    android:showDividers="middle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:textSize="18dp"
+                        android:paddingTop="5dp"
+                        android:textColor="#3f4265"
+                        android:text="공정 진행 상세 상태"
+                        android:gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_gravity="center"
+                        android:divider="#c0cad6"
+                        android:dividerPadding="0.5dp"
+                        android:showDividers="middle"
+                        android:weightSum="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.33333"
+                            android:textColor="#3f4265"
+                            android:textSize="18dp"
+                            android:text="이전"
+                            android:gravity="center" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.33333"
+                            android:textColor="#3f4265"
+                            android:textSize="18dp"
+                            android:text="현재"
+                            android:gravity="center" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.33333"
+                            android:textColor="#3f4265"
+                            android:textSize="18dp"
+                            android:text="다음"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.11"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="작업자"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.23"
+                    android:textColor="#3f4265"
+                    android:textSize="18dp"
+                    android:text="작업상태"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/indi_listview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:clickable="true"
+                android:divider="#a3b0bf"
+                android:scrollbarFadeDuration="0"
+                android:scrollbarSize="12dp"
+                android:scrollbarThumbVertical="@android:color/darker_gray"
+                android:scrollbars="vertical"
+
+                app:layout_constraintBottom_toBottomOf="@id/guidelinehor5"
+                app:layout_constraintHorizontal_bias="0.226"
+                app:layout_constraintLeft_toLeftOf="@id/guidelinever"
+                app:layout_constraintRight_toRightOf="@id/guidelinever"
+                app:layout_constraintTop_toBottomOf="@id/guidelinehor3"
+
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/menuname1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="개인작업"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/box1"
+                app:layout_constraintLeft_toLeftOf="@+id/box1"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/guidelinehor2">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/tabletop1"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/bg_table_top_green"
+                app:layout_constraintTop_toTopOf="@+id/box1"
+                app:layout_constraintBottom_toBottomOf="@id/guidelinehor2"
+                app:layout_constraintRight_toRightOf="@id/box1"
+                android:onClick="backBtnOnClick"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"></ImageView>
+
+            <TextView
+                android:id="@+id/importtxt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="완료"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop1"
+                app:layout_constraintLeft_toLeftOf="@+id/tabletop1"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop1"
+                android:layout_marginLeft="18dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/importnum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1건"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop1"
+                app:layout_constraintRight_toRightOf="@+id/tabletop1"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop1"
+                android:layout_marginRight="15dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/tabletop4"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/bg_table_top_yellow"
+                app:layout_constraintTop_toTopOf="@+id/box1"
+                app:layout_constraintBottom_toBottomOf="@id/guidelinehor2"
+                app:layout_constraintRight_toRightOf="@id/box1"
+                android:onClick="backBtnOnClick"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="140dp"></ImageView>
+
+            <TextView
+                android:id="@+id/importtxt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="진행중"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop4"
+                app:layout_constraintLeft_toLeftOf="@+id/tabletop4"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop4"
+                android:layout_marginLeft="15dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/importnum4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1건"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop4"
+                app:layout_constraintRight_toRightOf="@+id/tabletop4"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop4"
+                android:layout_marginRight="15dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/tabletop5"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/bg_table_top_red"
+                app:layout_constraintTop_toTopOf="@+id/box1"
+                app:layout_constraintBottom_toBottomOf="@id/guidelinehor2"
+                app:layout_constraintRight_toRightOf="@id/box1"
+                android:onClick="backBtnOnClick"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="270dp"></ImageView>
+
+            <TextView
+                android:id="@+id/importtxt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="작업대기"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop5"
+                app:layout_constraintLeft_toLeftOf="@+id/tabletop5"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop5"
+                android:layout_marginLeft="18dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/importnum5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1건"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/tabletop5"
+                app:layout_constraintRight_toRightOf="@+id/tabletop5"
+                app:layout_constraintBottom_toBottomOf="@id/tabletop5"
+                android:layout_marginRight="15dp">
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+    //메뉴
+    <LinearLayout
+        android:id="@+id/drawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/menu_bg"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:id="@+id/menu_user_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_left_menu_user"
+                app:layout_constraintRight_toRightOf="@id/menu_bg"
+                app:layout_constraintLeft_toLeftOf="@id/menu_bg"
+                app:layout_constraintTop_toTopOf="@id/menu_bg"></ImageView>
+
+            <ImageView
+                android:id="@+id/user_ico"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_user"
+                android:layout_marginTop="40dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintTop_toTopOf="@id/menu_user_bg"
+                app:layout_constraintLeft_toLeftOf="@id/menu_user_bg"
+                app:layout_constraintRight_toRightOf="@id/menu_user_bg"></ImageView>
+
+            <TextView
+                android:id="@+id/membername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="홍길동"
+                android:textSize="25dp"
+                android:textColor="#3f91c0"
+                app:layout_constraintLeft_toLeftOf="@id/menu_user_bg"
+                app:layout_constraintRight_toRightOf="@id/menu_user_bg"
+                app:layout_constraintTop_toBottomOf="@id/user_ico"
+                app:layout_constraintBottom_toBottomOf="@id/menu_user_bg"></TextView>
+
+            <ImageView
+                android:id="@+id/menu_setting_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:onClick="settingBtnOnclick"
+                android:src="@drawable/bg_left_menu_list"
+                app:layout_constraintTop_toBottomOf="@id/menu_user_bg"></ImageView>
+
+            <ImageView
+                android:id="@+id/setting_ico"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_set"
+                android:onClick="settingBtnOnclick"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="30dp"
+                app:layout_constraintTop_toTopOf="@id/menu_setting_bg"
+                app:layout_constraintLeft_toLeftOf="@id/menu_setting_bg"
+                app:layout_constraintBottom_toBottomOf="@id/menu_setting_bg"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#919293"
+                android:onClick="settingBtnOnclick"
+                android:text="설정"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                app:layout_constraintLeft_toRightOf="@id/setting_ico"
+                app:layout_constraintTop_toTopOf="@id/setting_ico"
+                app:layout_constraintBottom_toBottomOf="@id/setting_ico"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="917dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:layout_constraintTop_toBottomOf="@id/menu_setting_bg"
+                app:layout_constraintRight_toRightOf="@id/menu_setting_bg"
+                app:layout_constraintLeft_toLeftOf="@id/menu_setting_bg"
+                app:layout_constraintBottom_toTopOf="@id/logout_setting_bg"
+                android:src="@drawable/bg_left_menu"></ImageView>
+
+
+            //로그아웃
+            <ImageView
+                android:id="@+id/logout_setting_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:onClick="logoutBtnOnClick"
+                android:src="@drawable/bg_left_menu_list"
+                app:layout_constraintBottom_toBottomOf="@id/menu_bg"></ImageView>
+
+            <ImageView
+                android:id="@+id/logout_ico"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_logout"
+                android:onClick="logoutBtnOnClick"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="30dp"
+                app:layout_constraintTop_toTopOf="@id/logout_setting_bg"
+                app:layout_constraintLeft_toLeftOf="@id/logout_setting_bg"
+                app:layout_constraintBottom_toBottomOf="@id/logout_setting_bg"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#919293"
+                android:onClick="logoutBtnOnClick"
+                android:text="로그아웃"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                app:layout_constraintLeft_toRightOf="@id/logout_ico"
+                app:layout_constraintTop_toTopOf="@id/logout_setting_bg"
+                app:layout_constraintBottom_toBottomOf="@id/logout_setting_bg"></TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
