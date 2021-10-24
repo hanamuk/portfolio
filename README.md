@@ -25,7 +25,7 @@
 - Windows Form
 - Android(JAVA)
 - Naver Maps API
-- Googole MAP API
+- Google MAP API
 
 ### 데이터베이스
 - SQL Server
