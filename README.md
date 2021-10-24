@@ -15,7 +15,7 @@
 
 
 ## 처리흐름
-<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138584260-b2527c8d-2a29-45b0-9663-1623ece3db71.png" width="60%" height="100%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138589936-e8f8ff3e-d1aa-47d3-a92d-1af2b6f1528a.JPG" width="60%" height="100%"></p>
 <h4 align="center"> 메인화면1</h4>
 <p align="center"><img src="https://user-images.githubusercontent.com/46813878/138584267-95b84575-c46b-4ae5-9f25-15b3e3adab28.png" width="60%" height="100%"></p>
 <h4 align="center"> 메인화면1</h4>
