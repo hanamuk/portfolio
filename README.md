@@ -119,8 +119,21 @@
 
 ## 3. 채팅서버 및 클라이언트 제작
 
-<img src="https://user-images.githubusercontent.com/46813878/138597211-d7926a60-013d-44a3-aa7f-a7d92c83a47f.JPG" width="50%" height="70%">
+### 설명
+: SOCKET통신을 사용하여 서버에 접속 및 클라이언트 간의 데이터 전송이 가능하고, Thread를 사용하여 다중 클라이언트 접속이 가능하도록 개발한 간단한 Chating 프로그램입니다.
+MFC를 사용하여 클라이언트의 UI를 구성하였습니다.
 
-<img src="https://user-images.githubusercontent.com/46813878/138597265-3248b632-631f-4b66-9379-cf1955581d02.JPG" width="50%" height="70%">
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138597211-d7926a60-013d-44a3-aa7f-a7d92c83a47f.JPG" width="50%" height="70%"></p>
+<h4 align="center"> [Server]</h4>
+<p align="center"><img src="https://user-images.githubusercontent.com/46813878/138597265-3248b632-631f-4b66-9379-cf1955581d02.JPG" width="50%" height="70%"></p>
+<h4 align="center"> [Client]</h4>
 
 
+## 💻 사용 기술
+
+- C++
+- MFC
+- SOCKET통신
+- Thread
+***   
+   
